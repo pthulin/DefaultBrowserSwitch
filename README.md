@@ -75,3 +75,7 @@ open build/DefaultBrowserSwitch.app
 ```
 
 Opening it again replaces the copy that is already running.
+
+## License
+
+Use at your own risk. See [LICENSE](LICENSE).
