@@ -1,5 +1,7 @@
 # Default Browser Switch
 
+**Switch your browser, change your life.**
+
 A small macOS menu bar app that switches the system default browser between Safari and Google Chrome.
 
 The menu bar is the strip across the top of the screen. The app shows **Safari** or **Chrome** there, matching whichever one currently opens web links. Click that label and choose the other browser. macOS asks you to confirm the change. It may ask once for https and once for http.

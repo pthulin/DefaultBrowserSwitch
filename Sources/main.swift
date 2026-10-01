@@ -124,6 +124,9 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
 
         let header = NSMenuItem(title: "Default Browser", action: nil, keyEquivalent: "")
         header.isEnabled = false
+        if #available(macOS 14.4, *) {
+            header.subtitle = "Switch your browser, change your life"
+        }
         menu.addItem(header)
         menu.addItem(.separator())
 
